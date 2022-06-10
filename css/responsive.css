@@ -1,0 +1,114 @@
+
+/*This Media Query use for Mobile View*/
+@media screen and (max-width: 767px){
+	.header{
+		padding: 20px 0;
+	}
+	.logo{
+		display: block;
+		margin: 0 auto;
+		width: 100px;
+	} 
+	.main_nav{
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 15px;
+	} 
+	.main_nav ul li{
+		margin: 0 3px;
+	}	
+
+	.banner{
+		background-size: 200%;
+		background-position: top center;
+    background-repeat: no-repeat;
+	}
+	.banner h1{ 
+		font-size:32px;
+		 }
+	.about-section h2{
+		font-size:25px;
+	}
+	.about-section p{
+		font-size:16px;
+	}
+	.about-box{
+		margin: 15px 0;
+	}
+	#port_pop_pic{
+		left: 30px;
+		top: 30px;
+		width: calc(100% - 60px);
+		height: calc(100% - 60px)
+	}
+	.col-md-auto {
+    padding: 0px;
+}
+.main_nav ul {
+    background-color: rgb(0 0 0 / 40%);
+    }
+.banner_cont {
+    padding: 20px;
+}
+.banner_cont p {
+    font-size: 18px;
+}
+.btn1 {
+    padding: 7px 18px;
+    height: 33px;
+}
+h3.bdr-btm {
+    font-size: 25px;
+}
+li {
+    font-size: 16px;
+}
+.portfolio-section {
+    padding: 40px 0;
+    }
+    .portfolio-section h2 {
+    font-size: 35px;
+}
+.bdr-btm:after {
+    top: 75%;
+}
+.contact_box i.fa {
+    font-size: 25px;
+    padding: 0 0 8px;
+    }
+    .contact_box h3 {
+    margin-bottom: 5px;
+}
+.contact_box h3 {
+    font-size: 22px;
+}
+.contact_box p {
+    font-size: 20px;
+}
+.contact_section_left {
+    padding: 30px 0;
+}
+.contact_section_right {
+    padding: 25px 0;
+}
+.contact_section_right h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 20px;
+    height: 30px;
+    }
+    .chat_icon {
+    font-size: 50px;
+}
+.chat_box {
+    width: 315px;
+    height: 60vh;
+    }
+}
+
+
+
+
