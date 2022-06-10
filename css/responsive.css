@@ -99,26 +99,23 @@ li {
     font-size: 25px;
     margin-bottom: 10px;
 }
-
-input[type="submit"] {
-    padding: 5px 20px;
-    height: 30px;
-    }
-    .chat_icon {
-    font-size: 50px;
-}
 .chat_box {
     width: 315px;
     height: 60vh;
+    overflow: auto;
     }
-div.conv-form-wrapper div#messages div.message.to {
-    margin-bottom:115px;
+button.contct_btn {
+    padding: 2px 20px;
+    font-size: 16px;
+    }
+ a.btn1 {
+    padding: 2px 20px;
+    font-size: 16px;
+    } 
+    i.fa.fa-comments {
+    font-size: 40px;
+}  
 }
-form#convForm {
-    margin-top: -120px;
-}
-}
-
 
 
 
