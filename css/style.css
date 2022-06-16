@@ -14,7 +14,7 @@ header i{
 	color:red;
 	font-weight: bold;
 }
-header h1{
+header a h1{
 	color:#21EBFB;
 	font-weight: bold;
 }
@@ -88,7 +88,8 @@ body,html{
 }
 .banner_cont{
 	padding: 30px;
-	background:rgba(0,0,0,.6);
+	background: rgb(24 24 24);
+
 	transform: scaleY(0);
 	animation:1s scaleAnim 1s;
 	opacity: 0;
@@ -101,7 +102,7 @@ body,html{
 
 /*about-section*/
 .about-section{
-	background-color:#90ddc4;
+	background-color:#0c0b0b;
 	padding: 80px 20px;
 	color: #fff;		
 }
@@ -155,7 +156,7 @@ a.btn1:hover {
 	padding: 30px;
 }
 .about-box i{
-	color: #7bb7a3;
+	color:#120f0f;
 }
 .about-box:hover.about-box i{
 	color: #fff;
@@ -261,7 +262,7 @@ button.contct_btn:hover {
 
 /*contact-section*/
 .contact-section {
-  background:#90ddc4;
+  background:#0c0b0b;
   color: #fff; 
 }
 .contact_section_left {
@@ -288,7 +289,7 @@ button.contct_btn:hover {
 }
 .contact_section_right {
 	padding: 40px 0; 
-	background-color:#90ddc4;
+	background-color:#1a1818;
 }
 .contact_section_right h2 {
   color: #fff; 
