@@ -19,7 +19,7 @@
 	}	
 
 	.banner{
-		background-size: 225%;
+		background-size: 200%;
 		background-position: top center;
     background-repeat: no-repeat;
 	}
@@ -34,7 +34,7 @@
 		font-size:32px;
 		 }
 		 .about-section {
-    margin-top: -180px;
+    margin-top:-130px;
 }
 	.about-section h2{
 		font-size:25px;
@@ -43,7 +43,7 @@
 		font-size:16px;
 	}
 	.about-box{
-		margin:35px 0;
+		margin: 15px 0;
 	}
 	#port_pop_pic{
 		left: 30px;

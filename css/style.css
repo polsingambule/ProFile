@@ -10,6 +10,14 @@ body{
 	color: #333;
 	font-family: 'Jost', sans-serif;
 }
+header i{
+	color:red;
+	font-weight: bold;
+}
+header h1{
+	color:#21EBFB;
+	font-weight: bold;
+}
 img{
 	max-width: 100%;
 }
@@ -41,11 +49,12 @@ body,html{
 	text-decoration:none;
 }
 .main_nav ul li:hover a{
-	color: #f12626;
+	color:#DAF7A6;
 }
 
 /*banner*/
 .banner{
+	background: rgba(0,0,0,.6); 
 	background-blend-mode: darken;
 	min-height: 100vh;
 	position: relative;
@@ -75,7 +84,7 @@ body,html{
 	color: #fff
 }
 .socila_links li a:hover{
-	color: #f12626
+	color:#DAF7A6;
 }
 .banner_cont{
 	padding: 30px;
