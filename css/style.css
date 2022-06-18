@@ -10,13 +10,8 @@ body{
 	color: #333;
 	font-family: 'Jost', sans-serif;
 }
-header i{
-	color:red;
-	font-weight: bold;
-}
-header a h1{
-	color:#21EBFB;
-	font-weight: bold;
+header.header a img {
+    height: 40px;
 }
 img{
 	max-width: 100%;
@@ -80,15 +75,20 @@ body,html{
 .socila_links li{
 	margin: 10px 0;
 }
-.socila_links li a{
-	color: #fff
+.socila_links li a {
+    color: #000;
+    text-shadow: 0px 0px #00ff1f;
 }
-.socila_links li a:hover{
-	color:#DAF7A6;
+.socila_links li a:hover {
+    color: #00ff1f;
+    text-shadow: unset;
 }
 .banner_cont{
 	padding: 30px;
-	background: rgb(24 24 24);
+	background-image: url("../images/card_img.gif");
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
 
 	transform: scaleY(0);
 	animation:1s scaleAnim 1s;
@@ -102,7 +102,11 @@ body,html{
 
 /*about-section*/
 .about-section{
-	background-color:#0c0b0b;
+	background-image: url("../images/back_img.gif");
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	//background-color:#0c0b0b;
 	padding: 80px 20px;
 	color: #fff;		
 }
@@ -129,19 +133,19 @@ body,html{
 	margin-left: -25px;
 }
 a.btn1 { 
-    background-color: #21EBFB;
+    background-color: #2ee122;
     padding: 4px 22px;
     color: #000;
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px solid #fff;
 }
 a.btn1:hover {
-    background-color: red;
+    background-color: #04ff00;
     transition: 1S;
-    box-shadow: 0px 3px 22px 2px red;
-    border: 1px solid white;
+    box-shadow: 0px 3px 22px 2px #1bff00;
+    border: 1px solid black;
     padding: 4px 22px;
-    color: #fff;
+    color: #000;
 }
 .about-box{
 	background: rgb(44 32 32 / 20%);
@@ -150,8 +154,8 @@ a.btn1:hover {
 	border: 1px solid #fff;
 }
 .about-box:hover{
-	background: rgb(44 32 32 / 80%);
-    box-shadow: 0px 3px 22px 2px red;
+	background: rgb(0 0 0 / 80%);
+    box-shadow: 0px 3px 22px 2px #25d919;
     transition: 0.5s;
 	padding: 30px;
 }
@@ -172,24 +176,27 @@ a.btn1:hover {
 	margin-bottom: 20px;
 }
 button.contct_btn {
-    background-color: #21EBFB;
+	background-color: #2ee122;
     padding: 4px 22px;
     color: #000;
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px solid #fff;
 }
 button.contct_btn:hover {
-    background-color: red;
+    background-color: #04ff00;
     transition: 1S;
-    box-shadow: 0px 3px 22px 2px red;
-    border: 1px solid white;
+    box-shadow: 0px 3px 22px 2px #1bff00;
+    border: 1px solid black;
     padding: 4px 22px;
-    color: #fff;
+    color: #000;
 }
 /*portfolio-section*/
 .portfolio-section{
 	padding: 80px 0;
-	background-color: #000;
+	background-image: url("../images/back_img.gif");
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 .portfolio-section h2{
 	font-size: 40px;
@@ -206,9 +213,11 @@ button.contct_btn:hover {
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
+	border: 1px solid #fff;
 }
 .portfolio-box:hover{
-	background-color:#90ddc4;
+	    box-shadow: 0px 3px 22px 2px #3ee514;
+	    transition: 1s;
 }
 .portfolio-box h3 {
 	position: absolute;
@@ -262,8 +271,14 @@ button.contct_btn:hover {
 
 /*contact-section*/
 .contact-section {
-  background:#0c0b0b;
-  color: #fff; 
+	background-image: url("../images/back_img.gif");
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+  	color: #fff; 
+}
+.contact-section:hover{
+	background-color: rgb(0 0 0 / 80%);
 }
 .contact_section_left {
   padding: 40px 0; 
@@ -289,7 +304,7 @@ button.contct_btn:hover {
 }
 .contact_section_right {
 	padding: 40px 0; 
-	background-color:#1a1818;
+	//background-color:#1a1818;
 }
 .contact_section_right h2 {
   color: #fff; 
@@ -360,40 +375,3 @@ input[type="submit"]{
   text-align: center;
 }
 */
-
-/*ChatBot*/
-.chat_icon{
-	position: fixed;
-	bottom: 0;
-	right: 30px;
-	z-index: 1000;
-	padding: 0;
-	font-size: 80px;
-	color: #fff;
-	cursor: pointer;
-}
-.chat_box{
-	width: 400px;
-	height: 80vh;
-	position: fixed;
-	bottom: 100px;
-	right: 30px;
-	background:#dedede;
-	z-index: 1000;
-	transition: all 0.3s ease-out;
-	transform: scaleY(0);
-}
-.chat_box.active{
-	transform: scaleY(1);
-}
-#messages{
-	padding: 20px;
-}
-.my-conv-form-wrapper textarea{
-	height: 30px;
-	overflow: hidden;
-	resize: none;
-}
-.hidden{
-	display: none !important;
-}

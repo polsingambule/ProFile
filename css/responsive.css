@@ -3,6 +3,7 @@
 @media screen and (max-width: 767px){
 	.header{
 		padding: 20px 0;
+        text-align: center;
 	}
     header h1 {
     text-align: center;
@@ -61,10 +62,11 @@
     background-color: rgb(0 0 0 / 40%);
     }
 .banner_cont {
-    padding: 20px;
+    padding:10px;
+    margin-top: 4rem;
 }
 .banner_cont p {
-    font-size: 18px;
+    font-size: 16px;
 }
 .btn1 {
     padding: 7px 18px;
@@ -108,11 +110,6 @@ li {
     font-size: 25px;
     margin-bottom: 10px;
 }
-.chat_box {
-    width: 315px;
-    height: 60vh;
-    overflow: auto;
-    }
 button.contct_btn {
     padding: 2px 20px;
     font-size: 16px;
